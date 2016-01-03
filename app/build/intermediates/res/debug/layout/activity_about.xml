@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffe0e0e0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_top_title"/>
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="36dp"
+                android:layout_height="24dp"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/btn_back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#ffffffff"
+                android:textSize="18sp"
+                android:text="About MediAlarm"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_logo"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18sp"
+                    android:textColor="#ff767676"
+                    android:text="Version 1.0.0"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#ff767676"
+                    android:text="Build 20"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#ff767676"
+                    android:text="2015 Medialarm Project LTD"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ff555555"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff5f5f5">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/setting_simple_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:clickable="true"
+                        android:background="@drawable/bg_preference_item">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#ff646464"
+                            android:text="@string/user_agreement"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/btn_more"/>
+                    </RelativeLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#ffa0a0a0"/>
+
+                    <RelativeLayout
+                        android:id="@+id/setting_use_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:clickable="true"
+                        android:background="@drawable/bg_preference_item">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#ff646464"
+                            android:text="@string/data_use_policy"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/btn_more"/>
+                    </RelativeLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#ffa0a0a0"/>
+
+                    <RelativeLayout
+                        android:id="@+id/setting_view_introduce"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:clickable="true"
+                        android:background="@drawable/bg_preference_item">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#ff646464"
+                            android:text="@string/sign_out"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/btn_more"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/G:/Dropbox/Dropbox/Task/6.OutSourcing/4.MediAlarm/MediAlarm/app/src/main/res/layout/activity_about.xml -->

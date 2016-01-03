@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/drug_icon_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_51"/>
+
+        <TextView
+            android:id="@+id/drug_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:textColor="#ff6d6d6d"
+            android:text="감기약, 오후 2:35"/>
+    </LinearLayout>
+</LinearLayout>

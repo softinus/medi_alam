@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffe0e0e0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_top_title"/>
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="36dp"
+                android:layout_height="24dp"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/btn_back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#ffffffff"
+                android:textSize="18sp"
+                android:text="카트리지 선택"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/select_drug_case_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:visibility="invisible"
+                android:textColor="#ff646464"
+                android:text="선택된 약통: 8/27"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <Button
+                    android:id="@+id/morning_button"
+                    android:layout_width="220dp"
+                    android:layout_height="38dp"
+                    android:textColor="#ff646464"
+                    android:text="아침"/>
+
+                <Button
+                    android:id="@+id/lunch_button"
+                    android:layout_width="220dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#ff646464"
+                    android:text="점심"/>
+
+                <Button
+                    android:id="@+id/evening_button"
+                    android:layout_width="220dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#ff646464"
+                    android:text="저녁"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

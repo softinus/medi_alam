@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/btn_left_on" />
+    <item
+        android:drawable="@drawable/btn_left" />
+</selector><!-- From: file:/G:/Dropbox/Dropbox/Task/6.OutSourcing/4.MediAlarm/MediAlarm/app/src/main/res/drawable/btn_left_selector.xml -->
