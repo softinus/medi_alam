@@ -1,0 +1,369 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!-- 상/좌 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/evening_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableBottom="@drawable/ic_night"
+                        android:drawablePadding="3dp"
+                        android:gravity="center"
+                        android:layout_marginTop="75dp"
+                        android:layout_marginLeft="18dp"
+                        android:text="저녁"/>
+                </LinearLayout>
+
+                <!-- 상/우 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!-- 하/좌 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/lunch_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/ic_noon"
+                        android:drawablePadding="3dp"
+                        android:gravity="center"
+                        android:layout_marginTop="75dp"
+                        android:layout_marginLeft="18dp"
+                        android:text="점심"/>
+                </LinearLayout>
+
+                <!-- 하/우 -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/morning_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:drawableTop="@drawable/ic_morning"
+                        android:drawablePadding="3dp"
+                        android:gravity="center"
+                        android:layout_marginTop="75dp"
+                        android:layout_marginRight="18dp"
+                        android:text="아침"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/drug_case"/>
+
+            <ImageView
+                android:id="@+id/opened_morning_cartridge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_morning"/>
+
+            <ImageView
+                android:id="@+id/opened_morning_cartridge_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_morning_1"/>
+
+            <ImageView
+                android:id="@+id/opened_morning_cartridge_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_morning_2"/>
+
+            <ImageView
+                android:id="@+id/opened_morning_cartridge_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_morning_3"/>
+
+            <ImageView
+                android:id="@+id/opened_morning_cartridge_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_morning_4"/>
+
+            <ImageView
+                android:id="@+id/opened_lunch_cartridge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_lunch"/>
+
+            <ImageView
+                android:id="@+id/opened_lunch_cartridge_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_lunch_1"/>
+
+            <ImageView
+                android:id="@+id/opened_lunch_cartridge_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_lunch_2"/>
+
+            <ImageView
+                android:id="@+id/opened_lunch_cartridge_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_lunch_3"/>
+
+            <ImageView
+                android:id="@+id/opened_lunch_cartridge_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_lunch_4"/>
+
+            <ImageView
+                android:id="@+id/opened_evening_cartridge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_evening"/>
+
+            <ImageView
+                android:id="@+id/opened_evening_cartridge_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_evening_1"/>
+
+            <ImageView
+                android:id="@+id/opened_evening_cartridge_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_evening_2"/>
+
+            <ImageView
+                android:id="@+id/opened_evening_cartridge_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_evening_3"/>
+
+            <ImageView
+                android:id="@+id/opened_evening_cartridge_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:src="@drawable/drug_case_evening_4"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!-- 저녁 알약 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:id="@+id/evening_cartridge"
+                        android:layout_width="65dp"
+                        android:layout_height="75dp"
+                        android:layout_marginLeft="62dp"
+                        android:layout_gravity="bottom">
+
+                        <include
+                            layout="@layout/layout_case_evening_drugs" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <!-- Empty Cartridge -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!-- 점심 알약 -->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:id="@+id/lunch_cartridge"
+                        android:layout_width="75dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_gravity="right">
+
+                        <include
+                            layout="@layout/layout_case_lunch_drugs" />
+                    </FrameLayout>
+                </FrameLayout>
+
+                <!-- 아침 알약 -->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:id="@+id/morning_cartridge"
+                        android:layout_width="60dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="65dp"
+                        android:layout_gravity="right">
+
+                        <include
+                            layout="@layout/layout_case_morning_drugs" />
+                    </FrameLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!-- 상/좌 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:id="@+id/evening_touch_view"
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="15dp" />
+
+                </LinearLayout>
+
+                <!-- 상/우 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!-- 하/좌 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:id="@+id/lunch_touch_view"
+                        android:layout_width="170dp"
+                        android:layout_height="90dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="15dp" />
+                </LinearLayout>
+
+                <!-- 하/우 -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:id="@+id/morning_touch_view"
+                        android:layout_width="110dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

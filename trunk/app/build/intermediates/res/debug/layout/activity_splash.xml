@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff7db343">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:text="Medi Alarm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:text=" for Android"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:id="@+id/loading_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp"
+                    android:text="Loading..."/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/password_edit"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="65dp"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:hint="암호를 입력하세요"
+                android:textSize="14sp"/>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/G:/Dropbox/Dropbox/Task/6.OutSourcing/4.MediAlarm/MediAlarm/app/src/main/res/layout/activity_splash.xml -->

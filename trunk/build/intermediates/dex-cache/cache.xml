@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\Dropbox\Dropbox\Task\6.OutSourcing\4.MediAlarm\MediAlarm\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="G:\Dropbox\Dropbox\Task\6.OutSourcing\4.MediAlarm\MediAlarm\app\build\intermediates\pre-dexed\debug\classes-fa9a0e1d7cebc7ef997f588d44bfd64106b1593e.jar" />
+    </item>
+    <item
+        jar="G:\Android\adt-bundle-windows-x86_64\sdk2\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="G:\Dropbox\Dropbox\Task\6.OutSourcing\4.MediAlarm\MediAlarm\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-dd603904a4a4beb893d93a7d00074efe6c43f77c.jar" />
+    </item>
+    <item
+        jar="G:\Dropbox\Dropbox\Task\6.OutSourcing\4.MediAlarm\MediAlarm\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="G:\Dropbox\Dropbox\Task\6.OutSourcing\4.MediAlarm\MediAlarm\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-9f5500011706d24490f28e98042fa5eab93b3026.jar" />
+    </item>
+    <item
+        jar="G:\Dropbox\Dropbox\Task\6.OutSourcing\4.MediAlarm\MediAlarm\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="G:\Dropbox\Dropbox\Task\6.OutSourcing\4.MediAlarm\MediAlarm\app\build\intermediates\pre-dexed\debug\classes-432b91e18753c5d04102e6831d32f36510968455.jar" />
+    </item>
+    <item
+        jar="G:\Dropbox\Dropbox\Task\6.OutSourcing\4.MediAlarm\MediAlarm\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="G:\Dropbox\Dropbox\Task\6.OutSourcing\4.MediAlarm\MediAlarm\app\build\intermediates\pre-dexed\debug\classes-25aad89a63d53d6e6bbd82ed80f496d3544b7a59.jar" />
+    </item>
+
+</items>

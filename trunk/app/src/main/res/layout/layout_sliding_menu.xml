@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffafafa"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_picture"/>
+
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/profile_modify"
+                android:drawablePadding="5dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="24sp"
+                android:textColor="#ff969696"
+                android:text="성명"/>
+
+            <TextView
+                android:id="@+id/modify_profile_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textSize="16dp"
+                android:text="프로필수정"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ff686868"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:id="@+id/add_protector_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:background="@drawable/bg_sliding_menu_item">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_add_protector"
+                        android:drawablePadding="20dp"
+                        android:gravity="center"
+                        android:textColor="#ff969696"
+                        android:textSize="16sp"
+                        android:text="보호자 추가"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/drug_case_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:background="@drawable/bg_sliding_menu_item">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_drug_case"
+                        android:drawablePadding="20dp"
+                        android:gravity="center"
+                        android:textColor="#ff969696"
+                        android:textSize="16sp"
+                        android:text="약 보관함"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/preference_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:background="@drawable/bg_sliding_menu_item">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_preference"
+                        android:drawablePadding="20dp"
+                        android:gravity="center"
+                        android:textColor="#ff969696"
+                        android:textSize="16sp"
+                        android:text="일반설정"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/simple_mode_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:background="@drawable/bg_sliding_menu_item">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_simple_mode"
+                        android:drawablePadding="20dp"
+                        android:gravity="center"
+                        android:textColor="#ff969696"
+                        android:textSize="16sp"
+                        android:text="단순모드"/>
+
+                    <TextView
+                        android:id="@+id/simple_mode_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#ffb1b1b1"
+                        android:textSize="16sp"
+                        android:text="off"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="15dp"
+                android:background="#ff383838"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

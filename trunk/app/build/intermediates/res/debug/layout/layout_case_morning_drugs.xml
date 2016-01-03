@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/drug_1"
+            android:layout_width="40dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="11dp" />
+
+        <ImageView
+            android:id="@+id/drug_2"
+            android:layout_width="40dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="17dp" />
+
+        <ImageView
+            android:id="@+id/drug_3"
+            android:layout_width="40dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="8dp" />
+    </FrameLayout>
+</LinearLayout><!-- From: file:/G:/Dropbox/Dropbox/Task/6.OutSourcing/4.MediAlarm/MediAlarm/app/src/main/res/layout/layout_case_morning_drugs.xml -->

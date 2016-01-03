@@ -1,0 +1,21 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+                android:startColor="#ffe1e1e1"
+                android:endColor="#ffe1e1e1"
+                android:angle="360" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient
+                android:endColor="#fffafafa"
+                android:startColor="#fffafafa"
+                android:angle="360" />
+        </shape>
+    </item>
+</selector>
+<!-- From: file:/G:/Dropbox/Dropbox/Task/6.OutSourcing/4.MediAlarm/MediAlarm/app/src/main/res/drawable/bg_sliding_menu_item.xml -->
